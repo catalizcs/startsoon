@@ -1,0 +1,149 @@
+        @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+        /* Normal Styles */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+        }
+
+        .bg {
+            width: 1920px;
+            height: 1080px;
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        #scene {
+            width: 1920px;
+            height: 1080px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+
+        #countdown {
+            text-align: right;
+            position: absolute;
+            bottom: 80px;
+            right: 80px;
+            font-size: 60px;
+            transform-origin: right bottom;
+            z-index: 999;
+        }
+
+        #box1 {
+            text-align: right;
+            position: absolute;
+            bottom: 100px;
+            right: 275px;
+            width: 980px;
+            height: 76px;
+            background: white;
+        }
+
+        #box2 {
+            text-align: right;
+            position: absolute;
+            bottom: 57px;
+            right: 275px;
+            width: 980px;
+            height: 50px;
+            background: #252525;
+        }
+
+        #box3 {
+            text-align: right;
+            position: absolute;
+            bottom: 58px;
+            right: 96.97px;
+            width: 180px;
+            height: 95px;
+            background: yellow;
+        }
+
+        #box4 {
+            text-align: right;
+            position: absolute;
+            bottom: 130px;
+            right: 96px;
+            width: 180px;
+            height: 46px;
+            background: #252525;
+        }
+
+        #startsoon {
+            text-align: right;
+            position: absolute;
+            bottom: 105px;
+            right: 113px;
+            width: 200px;
+            height: 60px;
+            font-size: 21px;
+            font-weight: 600;
+            color: white;
+            font-weight: bold;
+            font-family: Trebuchet MS;
+        }
+
+        #scroll1 {
+            text-align: right;
+            position: absolute;
+            right: 280px;
+            top: 913px;
+            font-size: 40px;
+            font-weight: 100px;
+            width: 973px;
+            font-weight: 1200;
+            font-weight: bold;
+            font-family: Trebuchet MS;
+        }
+
+        #scroll2 {
+            text-align: right;
+            position: absolute;
+            right: 280px;
+            top: 979px;
+            font-size: 19px;
+            font-weight: 100px;
+            width: 973px;
+            color: #ffffff;
+            font-weight: 1200;
+            font-weight: bold;
+            font-family: Trebuchet MS;
+        }
+
+        #timer {
+            text-align: right;
+            position: absolute;
+            bottom: 67px;
+            right: 120px;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Trebuchet MS;
+        }
+
+        .marquee1 {
+            overflow: hidden;
+        }
+        
+        #chatbox {
+            text-align: right;
+            position: absolute;
+            bottom: 400px;
+            right: 96px;
+            width: 450px;
+            height: 550px;
+            border-radius: 10;
+            background: #252525;
+            opacity: 0.5;
+        }
+  
